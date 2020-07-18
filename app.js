@@ -1,7 +1,19 @@
-function saludar(nombre) {
-    console.table('Hola ' + nombre); // Hola Logan
-}
-var wolverine = {
-    nombre: 'Logan'
+"use strict";
+var mensaje = 'hola';
+var numero = 123;
+var booleano = true;
+var hoy = new Date();
+var cualquiercosa;
+cualquiercosa = mensaje;
+cualquiercosa = numero;
+cualquiercosa = booleano;
+cualquiercosa = hoy;
+var spiderman = {
+    nombre: 'Peter',
+    edad: 30
 };
-saludar(wolverine.nombre);
+spiderman = {
+    nombre: 'Juan',
+    edad: 40
+};
+console.log(mensaje);
